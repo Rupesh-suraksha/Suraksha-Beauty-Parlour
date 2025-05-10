@@ -7,19 +7,23 @@
   <link rel="stylesheet" href="style.css">
   <script defer src="script.js"></script>
 </head>
-<nav class="navbar">
+<nav id="navbar">
   <div class="logo">
     <img src="images/img12.png" alt="Logo">
   </div>
-  <ul class="nav-links">
-    <li><a href="#">Home</a></li>
-    <li><a href="#about">About</a></li>
-    <li><a href="#services">Services</a></li>
-    <li><a href="#gallery-section">Gallery</a></li>
-    <li><a href="#contact">Contact</a></li>
+
+  <!-- nav Button for smaller Device -->
+  <button id="nav-menu" class="nav-menu"></button>
+  <ul id="nav-links" class="nav-links">
+    <li class="link"><a href="#navbar">Home</a></li>
+    <li class="link"><a href="#about">About</a></li>
+    <li class="link"><a href="#services">Services</a></li>
+    <li class="link"><a href="#gallery-section">Gallery</a></li>
+    <li class="link"><a href="#contact">Contact</a></li>
   </ul>
 </nav>
 <body>
+  <div id="navArea"></div>
   <!-- Hero Section -->
   <header class="hero">
   <div class="hero-content">

@@ -7,7 +7,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $time = htmlspecialchars($_POST['time']);
   $service = htmlspecialchars($_POST['service']);
 
-  $to = "youremail@example.com"; // Replace with your email address
+  $to = "ghimirenischal000@gmail.com"; // Replace with your email address
   $subject = "New Booking from $name";
   $message = "Booking Details:\n" .
              "Name: $name\n" .
