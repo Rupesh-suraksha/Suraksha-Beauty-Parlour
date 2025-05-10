@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suraksha Beauty Parlour</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<nav class="navbar">
+  <div class="logo">
+    <img src="images/img12.png" alt="Logo">
+  </div>
+  <ul class="nav-links">
+    <li><a href="#">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#gallery-section">Gallery</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+<body>
+  <!-- Hero Section -->
+  <header class="hero">
+  <div class="hero-content">
+    <div class="hero-text">
+      <h1>Welcome to Suraksha Beauty Parlour</h1>
+      <p>Where elegance meets perfection. Discover your beauty with us.</p>
+      <a href="#booking" class="btn">Book an Appointment</a>
+    </div>
+  </div>
+</header>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Us</h2>
+    <div class="about-content">
+      <img src="images/img1.jpg" alt="About us">
+      <p>She looked at her student wondering if she could ever get through. "You need to learn to think for yourself," she wanted to tell him. "Your friends are holding you back and bringing you down." But she didn't because she knew his friends were all that he had and even if that meant a life of misery, he would never give them up.</p>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services-grid">
+      <div class="service-item">
+        <img src="images/img5.jpg" alt="Facial">
+        <h3>Facials</h3>
+        <p>Relaxing and rejuvenating facial treatments.</p>
+      </div>
+      <div class="service-item">
+        <img src="images/img6.jpg" alt="Hair Styling">
+        <h3>Hair Styling</h3>
+        <p>Trendy cuts, styling and color services.</p>
+      </div>
+      <div class="service-item">
+        <img src="images/img7.jpg" alt="Makeup">
+        <h3>Makeup</h3>
+        <p>Perfect for weddings, parties or any occasion.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery-section">
+    <h2>Our Work</h2>
+    <p>Take a look at some of our beautiful transformations and services in action.</p>
+    <div class="gallery-grid">
+      <img src="images/img1.jpg" alt="Makeup" />
+      <img src="images/img2.jpg" alt="Hair Styling" />
+      <img src="images/img3.jpg" alt="Facial Treatment" />
+      <img src="images/img4.jpg" alt="Bridal Makeup" />
+      <img src="images/img5.jpg" alt="Nail Art" />
+      <img src="images/img6.jpg" alt="Henna Design" />
+      <img src="images/img7.jpg" alt="Spa Treatment" />
+      <img src="images/img8.jpg" alt="Beauty Treatment" />
+    </div>
+  </section>
+
+  <!-- Booking Form -->
+  <section id="booking">
+    <h2>Book an Appointment</h2>
+    <form action="book.php" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <input type="tel" name="phone" placeholder="Phone Number" required>
+      <input type="date" name="date" required>
+      <input type="time" name="time" required>
+      <select name="service">
+        <option value="Facial">Facial</option>
+        <option value="Hair Styling">Hair Styling</option>
+        <option value="Makeup">Makeup</option>
+      </select>
+      <button type="submit" class="btn">Book Now</button>
+    </form>
+  </section>
+
+  <!-- Contact Form -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form action="contact.php" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+<!-- Testimonials Section -->
+  <section id="testimonials">
+  <h2>What Our Clients Say</h2>
+  <div class="testimonial-container">
+    <div class="testimonial">
+      <p>"Suraksha Beauty Parlour gave me the best facial I've ever had. Highly recommended!"</p>
+      <h4>- Priya S.</h4>
+    </div>
+    <div class="testimonial">
+      <p>"Amazing bridal makeup! I felt so confident on my wedding day."</p>
+      <h4>- Neha D.</h4>
+    </div>
+    <div class="testimonial">
+      <p>"Professional staff and great ambiance. Will definitely return!"</p>
+      <h4>- Rina P.</h4>
+    </div>
+  </div>
+</section>
+
+  <!-- Lightbox -->
+  <div id="lightbox"></div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Suraksha Beauty Parlour</p>
+    <div class="social-links">
+      <a href="https://www.instagram.com/glambysuru/">Instagram</a>
+      <a href="https://www.facebook.com/profile.php?id=100066645469372">Facebook</a>
+      <a href="https://wa.me/9779865355623">WhatsApp</a>
+      <a href="https://www.tiktok.com/@suraxya_">Tiktok</a>
+    </div>
+  </footer>
+  <script src="gallery.js"></script>
+</body>
+</html>
